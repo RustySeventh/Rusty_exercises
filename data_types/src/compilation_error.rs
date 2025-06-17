@@ -7,3 +7,13 @@ fn compilation_error {
     println!("Guess: {}, Number: {}, Ready: {}, Letter: {}", 
              guess, number, is_ready, letter);
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_compilation_error() {
+        assert!(compilation_error());
+    }
+}
