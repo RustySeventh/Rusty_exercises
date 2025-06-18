@@ -1,5 +1,5 @@
-fn compilation_error {
-    let guess:i32 = "42".parse().expect("Not a number!");
+pub fn compilation_error() {
+    let guess = "42".parse().expect("Not a number!");
     let number = 3.14;
     let is_ready = true;
     let letter = 'R';
@@ -14,6 +14,6 @@ mod tests {
 
     #[test]
     fn test_compilation_error() {
-        assert!(compilation_error());
+        compilation_error();
     }
 }

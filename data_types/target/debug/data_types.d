@@ -1,0 +1,1 @@
+/mnt/c/Users/André\ Colin/Documents/practice-solutions/data_types/target/debug/data_types: /mnt/c/Users/André\ Colin/Documents/practice-solutions/data_types/src/integers_range.rs /mnt/c/Users/André\ Colin/Documents/practice-solutions/data_types/src/main.rs
